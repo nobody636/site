@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ногтевой сервис | Имя мастера</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/path/to/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mCmUpPQv+xssSEdqEHxzAcRXe6jnB17uUxN+v8qexgQoiBWJUgofzVH5gHJ" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Навигация -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Имя мастера</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#hero">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">О мастере</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Обратная связь</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Геройский блок -->
+<section class="hero" id="hero">
+    <div class="container">
+        <h1>Прекрасный маникюр от мастера</h1>
+        <p>Ваше совершенство начинается с наших услуг!</p>
+        <a href="#services" class="btn btn-primary">Узнать больше</a>
+    </div>
+</section>
+
+
+<!-- Услуги -->
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="mb-4 text-center">Наши услуги</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch">
+                <div class="service-card w-100">
+                    <img src="/path/to/service-img1.png" alt="Маникюр" class="mb-3  card-img">
+                    <h3>Маникюр</h3>
+                    <p>Классический, европейский, аппаратный – выбираем вместе.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch">
+                <div class="service-card w-100">
+                    <img src="/path/to/service-img2.png" alt="Покрытие гель-лаком" class="mb-3 card-img">
+                    <h3>Покрытие гель-лаком</h3>
+                    <p>Долговечность и красота ваших ногтей.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch">
+                <div class="service-card w-100">
+                    <img src="/path/to/service-img3.png" alt="Дизайн ногтей" class="mb-3 card-img">
+                    <h3>Дизайн ногтей</h3>
+                    <p>Индивидуальный подход к каждому клиенту.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch">
+                <div class="service-card w-100">
+                    <img src="/path/to/service-img4.png" alt="Парафинотерапия" class="mb-3 card-img">
+                    <h3>Парафинотерапия</h3>
+                    <p>Уход за кожей рук с помощью парафина.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch">
+                <div class="service-card w-100">
+                    <img src="/path/to/service-img5.png" alt="Укрепление ногтей" class="mb-3 card-img">
+                    <h3>Укрепление ногтей</h3>
+                    <p>Процедура для укрепления и восстановления ногтей.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch">
+                <div class="service-card w-100">
+                    <img src="/path/to/service-img6.png" alt="Коррекция формы ногтей" class="mb-3 card-img">
+                    <h3>Коррекция формы ногтей</h3>
+                    <p>Подбор идеальной формы для ваших ногтей.</p>
+                </div>
+            </div>
+            <a href="/appointment" class="btn btn-primary">Записаться</a>
+        </div>
+    </div>
+</section>
+
+<!-- О мастере -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="mb-4 text-center">О мастере</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="/path/to/master-img.jpg" alt="Фото" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <p>Приветствую вас! Меня зовут [Имя], и я предоставляю качественные услуги маникюра уже несколько лет.
+                    Моя цель – создать идеальный образ для каждой клиентки, подчеркивая её индивидуальность. С любовью
+                    подхожу к своей работе и всегда стремлюсь к совершенству.</p>
+                <p>Будьте уверены, ваши руки будут в надежных руках!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Интересные факты -->
+<section class="fun-facts" id="facts">
+    <div class="container">
+        <h2 class="mb-4 text-center">Интересные факты о маникюре</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="fact-box w-100">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>История маникюра</h3>
+                    <p>Маникюр зародился около 5000 лет назад в Китае. Тогда использовали специальные краски для
+                        окрашивания ногтей.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="fact-box w-100">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Разнообразие дизайнов</h3>
+                    <p>Сегодня существует огромное количество вариантов дизайна ногтей: от классических однотонных
+                        покрытий до сложных художественных композиций.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="fact-box w-100">
+                    <i class="fas fa-star"></i>
+                    <h3>Значение цвета</h3>
+                    <p>Цвет лака может многое рассказать о человеке. Например, красный символизирует уверенность и
+                        страсть, а пастельные оттенки – нежность и романтичность.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Контактная информация -->
+<section class="contact" id="contact" style="margin-bottom: 20px;">
+    <div class="container">
+        <h2 class="mb-4 text-center">Обратная связь</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="/" method="post">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" class="form-control" id="name" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="useremail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение:</label>
+                        <textarea rows="5" class="form-control" id="message" name="usermessage" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer bg-dark">
+    <div class="container">
+        <p>© 2023 Ногтевой сервис. Все права защищены.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /* Общие стили */
+    * {
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    body {
+        background-color: #f9fafb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    /* Стилизация формы */
+    form {
+        width: 400px;
+        padding: 30px;
+        background-color: white;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        text-align: left;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    label {
+        display: block;
+        margin-top: 15px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #ffc107;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    button {
+        background-color: #0d6efd;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0069d9;
+    }
+</style>
+<body>
+<form action="/submit" method="post">
+    <h1>Форма обратной связи</h1>
+
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="username" placeholder="Иван" required>
+
+    <label for="surname">Фамилия:</label>
+    <input type="text" id="surname" name="surname" placeholder="Иванов" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="useremail" placeholder="ivanivanov@mail.ru" required>
+
+    <label for="service">Выберите услугу:</label>
+    <select id="service" name="userservice" required>
+        <option selected disabled>-- Выберите услугу --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <label for="date">Выберите желаемую дату:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Выберите желаемое время:</label>
+    <input type="time" id="time" name="time" required min="09:00" max="21:00">
+
+    <label for="message">Сообщение:</label>
+    <textarea id="message" name="usermessage" rows="4" cols="50" placeholder="Необязательно"></textarea>
+
+    <button type="submit">Отправить</button>
+</form>
+
+<script>
+    // Получаем текущую дату
+    const today = new Date();
+    const weekLater = new Date(today);
+    weekLater.setDate(today.getDate() + 7); // Добавляем 7 дней
+
+    // Устанавливаем формат даты YYYY-MM-DD
+    function formatDate(date) {
+        let d = new Date(date),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+
+        return [year, month, day].join('-');
+    }
+
+    // Устанавливаем атрибуты min и max для input[type=date]
+    document.getElementById('date').setAttribute('min', formatDate(today));
+    document.getElementById('date').setAttribute('max', formatDate(weekLater));
+</script>
+
+
+</body>
+</html>

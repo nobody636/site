@@ -1,0 +1,32 @@
+2025/01/20 23:41:02 Запуск сервера на http://localhost:8080
+2025/01/20 23:41:44 fdsF DSFAASD 1@gmail.com 1 2025-01-21 11:11 rwE REWFREGF
+2025/01/20 23:41:47 Письмо успешно отправлено!
+2025/01/20 23:42:50 Запуск сервера на http://localhost:8080
+2025/01/20 23:43:04 Имя: wqfwq
+Email: fqwfqf
+Услуга: 1@gmail.com
+Дата: 3
+Время: 2025-01-21
+Сообщение:
+11:01%!(EXTRA string=e32 frwf24wfewfsd )
+2025/01/20 23:43:07 Письмо успешно отправлено!
+2025/01/20 23:47:36 Запуск сервера на http://localhost:8080
+2025/01/20 23:55:20 Запуск сервера на http://localhost:8080
+2025/01/20 23:55:37 fef ewfaw 1@gmail.com 2 2025-01-22 11:01 e rfewfrgdzf
+2025/01/20 23:55:39 Письмо успешно отправлено!
+2025/01/21 00:04:30 Запуск сервера на http://localhost:8080
+2025/01/21 00:05:38 45a grsgrs 1@gmail.com 2 2025-01-27 11:11 e3rv4t43q tq3
+2025/01/21 00:05:40 Письмо успешно отправлено!
+2025/01/21 00:16:15 Запуск сервера на http://localhost:8080
+2025/01/21 00:16:59 Запуск сервера на http://localhost:8080
+2025/01/21 00:17:15 Запуск сервера на http://localhost:8080
+2025/01/21 00:17:37 Запуск сервера на http://localhost:8080
+2025/01/21 00:19:01 Запуск сервера на http://localhost:8080
+2025/01/21 00:19:25 Запуск сервера на http://localhost:8080
+2025/01/21 00:19:33   
+2025/01/21 00:19:34 Ошибка отправки письма: 555 5.5.2 Syntax error, cannot decode response. For more information, go to
+5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+5.5.2 specifications. 5b1f17b1804b1-438904084e7sm147207195e9.6 - gsmtp
+2025/01/21 00:19:34 555 5.5.2 Syntax error, cannot decode response. For more information, go to
+5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+5.5.2 specifications. 5b1f17b1804b1-438904084e7sm147207195e9.6 - gsmtp
